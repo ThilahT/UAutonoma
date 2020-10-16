@@ -1,0 +1,58 @@
+Objetivo:
+Primero que nada, haremos una cuadrícula donde podremos asignar a las entidades
+
+esto nos dará 10.000 de probabilidades para poder asignar los animales y plantas 
+
+desde la primera generación. Cada planta y/o animal debe tener su propio m2, 
+
+no puede haber más de un animal y/o planta por m2. Cada animal deberá tener un 
+
+valor máximo y mínimo de crías, la cantidad de crías será aleatoria, también tendrá
+
+un tiempo en el que podrá tener crías nuevamente, debe definirse un máximo de m2 que 
+
+se podrá mover por ciclo y un máximo de ciclos que podrá resistir antes de morir de hambre.
+
+Debemos definir si los ciclos se van a configurar para ser días o meses.
+
+Debemos tener un sistema para consultar qué animales están vivos y cuales muertos, 
+
+dónde están las plantas y etc (print a todos los valores). 
+
+Debemos tener un comando para forzar rondas.
+
+Debemos tener un comando para reiniciar el juego.
+
+Pasos:
+
+1- Crearemos un generador de entidades, esta será la clase Entitys.
+2- Crearemos un generador del ambiente, esta será la clase Enviroment.
+3- Debemos crear un controlador del juego, esto lo haremos en Main.
+4- Empezaremos a vincular el controlador del juego con el generador de ambiente con el generador de entidades.
+
+Detalle: 
+
+¿Deberíamos empezar los primeros ciclos cerca de 1,1 o 50,50 y que se vayan expandiendo?
+
+1- En Enviroment vamos a hacer un mapa de 100x100 metros haciendo uso de listas.
+2- En Enviroment llamaremos a múltiples instancias de la clase Entitys, con la cual crearemos las plantas y animales.
+3- Enviroment dará la señal a Main de "juego preparado". El jugador podrá iniciar. Después de cada ciclo se entregará
+un reporte de cantidad de entidades vivas, por tipo.
+
+¿Deberíamos mostrar un mapa con la posición de las entidades? 
+¿Caen 100 caracteres y sus separadores en una pantalla 1920x1080?
+
+4- Se le dará la opción al jugador de ejecutar más ciclos, pedir un reporte avanzado, reiniciar el juego o terminarlo.
+
+¿Y si ponemos osos pandas y bambú? ¿Es necesario tener más de un tipo de animal y/o planta?
+
+5.1- Si el jugador ejecuta más ciclos, el programa continuará ejecutando el punto 6.
+5.2- Si el jugador pide un reporte avanzado, se le entregará información detallada de cada entidad
+y se le permitirá elegir una opción nuevamente.
+5.3- Si el jugador decide reiniciar el juego, debemos borrar todas las entidades y volver al punto 1.
+5.4- Si el jugador decide cerrar el juego, le pediremos confirmación y cerraremos la ventana.
+6- Empezaremos un nuevo ciclo, explorando cada celda y buscando la posición de cada animal, preguntándole si están
+vivos aún o no, preguntándoles si tendrán crías o no y buscandoles una posición para moverse a comer.
+(Si un animal puede tener crías, pero no hay ninguna celda vacía inmediatamente cerca de el progenitor, 
+se considerará a la cría como muerta.)
+7- Se repite el punto 4 y 5.
