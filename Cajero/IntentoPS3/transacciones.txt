@@ -1,0 +1,20 @@
+Fecha y Hora: 22-07-2020 21:15:48 Cajero iniciado.
+Fecha y Hora: 22-07-2020 21:15:56 Inicio de sesion de.20188471-3
+Fecha y Hora: 22-07-2020 21:15:59 Giro realizado: 20188471-3 Cantidad: 324,889,997,012 CLP.
+Fecha y Hora: 22-07-2020 21:16:03 Consulta de Saldo: 20188471-3
+Fecha y Hora: 22-07-2020 21:16:10 Consulta de Saldo: 20188471-3
+Fecha y Hora: 22-07-2020 21:17:36 Inicio de sesion de.20188471-3
+Fecha y Hora: 23-07-2020 20:38:04 Cajero iniciado.
+Fecha y Hora: 23-07-2020 20:38:38 Inicio de sesion de.20188471-3
+Fecha y Hora: 23-07-2020 20:39:10 Giro realizado: 20188471-3 Cantidad: 100,000
+Fecha y Hora: 24-07-2020 13:30:41 Cajero iniciado.
+Fecha y Hora: 24-07-2020 13:30:53 Inicio de sesion de.20188471-3
+Fecha y Hora: 24-07-2020 13:32:01 Cajero iniciado.
+Fecha y Hora: 24-07-2020 13:32:21 Inicio de sesion de.20188471-3
+Fecha y Hora: 24-07-2020 13:32:57 Cajero iniciado.
+Fecha y Hora: 24-07-2020 13:33:08 Inicio de sesion de.20188471-3
+Fecha y Hora: 24-07-2020 13:34:13 Cajero iniciado.
+Fecha y Hora: 24-07-2020 13:34:22 Inicio de sesion de.20188471-3
+Fecha y Hora: 24-07-2020 13:35:32 Cajero iniciado.
+Fecha y Hora: 24-07-2020 13:35:41 Inicio de sesion de.20188471-3
+Fecha y Hora: 10-09-2020 08:42:47 Cajero iniciado.
